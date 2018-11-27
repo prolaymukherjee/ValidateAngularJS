@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="">
+	<head>
+		<title>This is AngularJs Framwork</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	</head>
+	 <body>
+		<div>
+			<form name="myform">
+				Email:<input type="emial" name="myaddress" ng-model="text">
+				<span ng-show="myform.myaddress.$error.email">This mail is not valid</span>
+			</form>
+		</div>
+		
+	
+	</body>
+</html>
